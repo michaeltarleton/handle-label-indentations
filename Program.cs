@@ -121,6 +121,7 @@ namespace SampleApp
         {
             LoadNavigationItems();
             Console.WriteLine(Load(navItem: Root));
+            Console.Read();
         }
     }
 
